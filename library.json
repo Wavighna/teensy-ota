@@ -1,0 +1,13 @@
+{
+  "name": "teensy-ota",
+  "version": "0.1.0",
+  "description": "Custom PlatformIO bootloader library for Teensy 4.1 boards, enabling OTA firmware updates via serial, Ethernet, or other interfaces.",
+  "license": "MIT",
+  "frameworks": ["arduino"],
+  "platforms": ["teensy"],
+  "build": {
+    "srcDir": "src",
+    "includeDir": "src",
+    "libArchive": false
+  }
+}
